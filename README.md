@@ -1,15 +1,11 @@
-import numpy as np # linear algebra
-import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
-
+import numpy as np 
+import pandas as pd
+# data processing, CSV file I/O (e.g. pd.read_csv)
 # Input data files are available in the "../input/" directory.
-# For example, running this (by clicking run or pressing Shift+Enter) will list the files in the input directory
-
 # sklearn preprocessing for dealing with categorical variables
 from sklearn.preprocessing import LabelEncoder
-
 # File system manangement
 import os
-
 # matplotlib and seaborn for plotting
 import matplotlib.pyplot as plt
 import seaborn as sns
